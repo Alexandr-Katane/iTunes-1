@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iTunes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+     <script type="text/javascript" src="js/script.js"></script>
+     <script type="text/javascript" src="js/script-dist.js"></script>
+     <meta name="viewport" content="width=device-width"> 
+</head>
+<body>
+	<div class="search">
+	  <div class="search-body">
+	  	<input id="search-keyword" class="search__input" type="text" value="" placeholder="Искать здесь...">
+	  	<input type="button" value="" class="search__button" onclick="performSearch();" />
+	  </div>
+	</div>
+	<div class="names">
+    	<p>Artist</p>
+    	<p>Track</p>
+    	<p>Collection</p>
+    	<p>Genre</p>
+    </div>
+    <div class="music one">
+    	<div class="container">
+    	</div>
+    </div>
+ <div class="popup" id="popup1">
+	    <div class="popup-content">
+	        Ничего не найдено <br>
+	    <a href="javascript:PopUpHide()">Ок</a>
+	    </div>
+	</div>
+</body>
